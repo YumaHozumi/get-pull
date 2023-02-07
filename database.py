@@ -8,3 +8,4 @@ engine = create_engine(DATABASE_URL, connect_args={"check_same_thread": False})
 
 # DeclarativeでマッピングされるDBテーブルを記述するためのクラスを作成することができる
 Base = declarative_base()
+# test
